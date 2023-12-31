@@ -1,0 +1,997 @@
+body{
+  height: 4103px;
+}
+nav{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.nav{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 1342px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  
+}
+.logoimg{
+  width: 41px;
+height: 41px;
+flex-shrink: 0;
+fill: #DEEEFE;
+}
+.logotext{
+color: #462E6A;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 10px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  width: 210px;
+  justify-content: space-between;
+}
+.links{
+  text-decoration: none ;
+  color: var(--1f1534-hyfen, #1F1534);
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;}
+
+a:hover{
+  color: #2E4E92;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.droprec {
+  width: 393px;
+  height: 59px;
+  border-radius: 20px;
+  border: 3px solid #2E4E92;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.droptext {
+  color: #000;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 10px;
+
+}
+
+.dropicon {
+  width: 32px;
+  height: 32px;
+}
+
+.disc{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dischub{
+  width: 652px;
+height: 137.515px;
+flex-shrink: 0;
+color: #3C567B;
+text-align: center;
+font-family: Mulish;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+margin-top: 252px;
+
+}
+.disctext{
+  width: 550px;
+height: 151.021px;
+flex-shrink: 0;
+color: #93C1F9;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Roboto;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 142.105% */
+letter-spacing: 0.38px;
+}
+
+.doctor-button{
+  width: 200px;
+height: 68.757px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Mulish;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 315.789% */
+align-items: center;
+display: flex;  
+justify-content: center;
+  
+  border-radius: 55px;
+background: #458FF6;
+border: none;
+}
+.perfect{
+  width: 100%;
+  color: #462E6A;
+display: flex;
+font-family: Mulish;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 124.444% */
+align-items: center;
+justify-content: center;
+  margin-top: 315px;
+}
+.hr{
+  width: 56px;
+height: 2px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #000;
+display: flex;
+justify-content: center;
+}
+.hrParent{
+  width:100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 26px;  
+}
+.perftext{
+  width:100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 31px;
+}
+.pertext{
+  width: 952px;
+  color: #CCD2E9;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Roboto;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 142.105% */
+letter-spacing: 0.38px;
+margin-bottom: 86px;
+}
+
+.cardios{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 54.86px;
+}
+
+.cardio{
+  width: 450px;
+height: 455.143px;
+  border-radius: 20px;
+  background: #FFF;
+  
+  /* drop shadow */
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+  margin-top: 78.86px;
+}
+.olicard{
+  
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.oliviaimg {
+  width: 100%;
+  height: 108px;
+  flex-shrink: 0;
+  color: #7D7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin-top: 39px;
+  border-radius: 20px; /* Add this line for border radius */
+  
+}
+.oliamg{
+  border-radius: 20px;
+}
+.olivianame{
+  width: 100%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+margin-top: 49px;
+
+}
+.oliviadisc{
+width: 100%;
+  height: 108px;
+flex-shrink: 0;
+color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.marcard{
+  
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.marcimg {
+  width: 100%;
+  height: 108px;
+  flex-shrink: 0;
+  color: #7D7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin-top: 39px;
+  border-radius: 20px; /* Add this line for border radius */
+  
+}
+.marcimg2{
+  border-radius: 20px;
+}
+.marcname{
+  width: 100%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+margin-top: 49px;
+
+}
+.marcdisc{
+width: 100%;
+  height: 108px;
+flex-shrink: 0;
+color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 66.14px;
+
+}
+
+.carlcard{
+  
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.carlcimg {
+  width: 100%;
+  height: 108px;
+  flex-shrink: 0;
+  color: #7D7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin-top: 39px;
+  border-radius: 20px; /* Add this line for border radius */
+  
+}
+.carlimg2{
+  border-radius: 20px;
+  margin-top: 39px;
+}
+.carlname{
+  width: 100%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+
+
+}
+.carldisc{
+width: 100%;
+  height: 108px;
+flex-shrink: 0;
+color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 66.14px;
+
+}
+
+.samcard{
+  
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.samcimg {
+  width: 100%;
+  height: 108px;
+  flex-shrink: 0;
+  color: #7D7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin-top: 39px;
+  border-radius: 20px; /* Add this line for border radius */
+  
+}
+.samimg2{
+  border-radius: 20px;
+  margin-top: 39px;
+}
+.samname{
+  width: 100%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+
+
+}
+.samdisc{
+width: 100%;
+  height: 108px;
+flex-shrink: 0;
+color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 66.14px;
+
+}
+
+.amcard{
+  
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.amimg {
+  width: 100%;
+  height: 108px;
+  flex-shrink: 0;
+  color: #7D7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin-top: 39px;
+  border-radius: 20px; /* Add this line for border radius */
+  
+}
+.amimg2{
+  border-radius: 20px;
+}
+.amname{
+  width: 100%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+margin-top: 49px;
+
+}
+.amdisc{
+width: 100%;
+  height: 108px;
+flex-shrink: 0;
+color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 66.14px;
+
+}
+.emcard{
+  
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.emimg {
+  width: 100%;
+  height: 108px;
+  flex-shrink: 0;
+  color: #7D7987;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin-top: 39px;
+  border-radius: 20px; /* Add this line for border radius */
+  
+}
+.emimg2{
+  border-radius: 20px;
+}
+.emname{
+  width: 100%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+margin-top: 49px;
+
+}
+.emdisc{
+width: 100%;
+  height: 108px;
+flex-shrink: 0;
+color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 66.14px;
+
+}
+
+.contact{
+  margin-left: 299px;
+}
+.contitle{
+  width: 478px;
+height: 75px;
+flex-shrink: 0;
+color: #462E6A;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+margin-top: 384.86px;
+}
+.conhr{
+  width: 56px;
+height: 2px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #000;
+}
+.context{
+  width: 420px;
+  color: #7D7987;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+margin-top: 31px;
+}
+
+.contact-button{
+  width: 200px;
+
+flex-shrink: 0;
+border-radius: 55px;
+border: 1.9px solid #458FF6;
+background-color: #fff;
+color: #458FF6;
+font-family: Mulish;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 315.789% */
+align-items: center;
+display: flex;  
+justify-content: center;
+margin-top: 40px;
+}
+.cont-per{
+  display: flex;
+  align-items: center;
+  
+}
+.conimg{
+  width: 626px;
+height: 463px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-blend-mode: darken;
+margin-top: 303.86px;
+}
+footer{
+  width: 100%;
+  height: 416px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(183deg, #6888C8 -8.57%, #5A98F2 82.96%);
+  margin-top: 193px;
+}
+.footer{
+  width: 1235px;
+  height: 416px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot1{
+  width: 403px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footlogo{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.footlogoimg{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.footlogoimgcircle{
+  width: 42.302px;
+  height: 39.511px;
+  flex-shrink: 0;
+  fill: #FFF;
+
+}
+.footlogoimgshape{
+  display: flex;
+  position: absolute;
+  width: 29.588px;
+height: 27.168px;
+flex-shrink: 0;
+}
+.footlogotext{
+  width: 174.365px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 10px;
+}
+.footdesc{
+  width: 403.413px;
+  /* height: 80.948px; */
+  flex-shrink: 0;
+  color: #FFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  letter-spacing: 0.18px;
+}
+.footrights{
+  width: 403.413px;
+  height: 26.983px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+.foot2{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.foot2title{
+  width: 94.921px;
+  height: 57.82px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 300% */
+}
+.foot2desc{
+  /* width: 277px; */
+  height: 146.478px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+}
+.foot2desc a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.foot2desc a:hover{
+  color: #93d0f7;
+  text-decoration: none;
+}
+.foot3{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.foot3title{
+  width: 69.127px;
+  height: 57.82px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 300% */
+}
+.foot3desc{
+  /* width: 277px; */
+  height: 146.478px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+}
+.foot3desc a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.foot3desc a:hover{
+  color: #93d0f7;
+  text-decoration: none;
+}
+.foot4{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.foot4title{
+  width: 46.429px;
+  height: 57.82px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 300% */
+}
+.foot4desc{
+  /* width: 277px; */
+  height: 146.478px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 211.111% */
+}
+.foot4desc a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.foot4desc a:hover{
+  color: #93d0f7;
+  text-decoration: none;
+}
+.elment1 {
+
+flex-shrink: 0;
+
+position: absolute;
+display: flex;
+left:1450px;
+top: 580px;
+margin-right: none;
+
+}
+.elemntcardio{
+  width: 937.951px;
+height: 771.352px;
+flex-shrink: 0;
+fill: linear-gradient(176deg, #CFE9FF -10.48%, #DEEEFE 92.66%);
+position: absolute;
+right: 600px;
+top: 1400px;
+z-index: -1;
+}
+
+.element5{
+  flex-shrink: 0;
+
+  position: absolute;
+  display: flex;
+  right:75px;
+  bottom:  375px;
+  margin-right: none;
+  z-index: -1;
+}
+.element6{
+  flex-shrink: 0;
+
+  position: absolute;
+  display: flex;
+  right:149px;
+  bottom:  600px;
+  margin-right: none;
+
+}
+.element4{
+  flex-shrink: 0;
+
+  position: absolute;
+  display: flex;
+  left:3px;
+  bottom:  4px;
+  margin-right: none;
+}
+
+.element15{
+ 
+  height: 671.352px;
+  flex-shrink: 0;
+  fill: linear-gradient(176deg, #CFE9FF -10.48%, #DEEEFE 92.66%);
+  position: absolute;
+  right:0px;
+  top: 2300px;
+  /* bottom:2100px ; */
+  z-index: -1;
+}
+
+ /* Add Bootstrap hover class */
+ .doctor-button:hover {
+  transform: scale(1.05); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease; /* Adjust the transition duration as needed */
+  background-color: #fff !important; /* Change the color as needed */
+  border: 2px solid #356ac7 !important; /* Change the color and width as needed */
+  color: #356ac7 !important; /* Change the color as needed */
+}
+
+/* Add the following rule to reset the default button styles */
+.doctor-button {
+  background-color: #458FF6;
+  border: none;
+  color: #FFF;
+}
+
+/* Add the following rule to remove the default focus outline */
+.doctor-button:focus {
+  outline: none;
+}
+
+/* Add Bootstrap hover class */
+.contact-button:hover {
+  background-color: #458FF6 !important; /* Change the color as needed */
+  color: #fff !important; /* Change the color as needed */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adjust the transition duration as needed */
+}
+
+/* Add the following rule to reset the default button styles */
+.contact-button {
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 55px;
+  border: 1.9px solid #458FF6;
+  background-color: #fff;
+  color: #458FF6;
+  font-family: Mulish;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 315.789% */
+  align-items: center;
+  display: flex;  
+  justify-content: center;
+  margin-top: 40px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for initial state */
+}
+
+/* Add the following rule to remove the default focus outline */
+.contact-button:focus {
+  outline: none;
+}
+
+.cardio,
+.marcard,
+.carlcard {
+  /* Add your default styles here */
+  transition: transform 0.3s ease;
+}
+
+.cardio:hover,
+.marcard:hover,
+.carlcard:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Include box-shadow in the transition */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add the shadow style */
+  background-color: #edf4f9;
+}
+.droprec {
+  /* Your existing styles here */
+
+  /* Add transition for smooth animation */
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.droprec:hover {
+  /* Change background color and border color on hover */
+  background-color: #2E4E92;
+  border-color: #FFF;
+}
+
+.droptext {
+  /* Your existing styles here */
+
+  /* Add transition for smooth text color change on hover */
+  transition: color 0.3s ease-in-out;
+}
+
+.droprec:hover .droptext {
+  /* Change text color on hover */
+  color: #FFF;
+}
+
+.logoicon{
+  height: 27.168px;
+flex-shrink: 0;
+position: absolute;
+left: 95px;
+top: 25px;
+}
